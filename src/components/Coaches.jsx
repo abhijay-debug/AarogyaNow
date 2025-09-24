@@ -2,15 +2,15 @@ import React, { useRef } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const coaches = [
-  { img: "/images/abhay.jpg", name: "Abhay",Personality:"Nutrionist " },
-  { img: "/images/Aditya.jpg", name: "Aditya",Personality:"Yoga" },
-  { img: "/images/Aisha.jpg", name: "Aisha",Personality:"Supportive friend, celebrates small wins" },
-  { img: "/images/Ajay.jpg", name: "Ajay",Personality:"Analytical,Scientific,Clam" },
-  { img: "/images/Amrita.jpg", name: "Amrita",Personality:"Gentle ,Steady,Reassuring" },
-  { img: "/images/Ananya.jpg", name: "Ananya",Personality:"Compassionate, understanding " },
-  { img: "/images/Arjun.jpg", name: "Arjun" ,Personality:" " },
+  { img: "/images/abhay.jpg", name: "Abhay",Personality:"Fitness Rehab & Injury Prevention " },
+  { img: "/images/Aditya.jpg", name: "Aditya",Personality:"Diabetes & Metabolic" },
+  { img: "/images/Aisha.jpg", name: "Aisha",Personality:"Weight Loss Specialist " },
+  { img: "/images/Ajay.jpg", name: "Ajay",Personality:"Blood Pressure & Heart " },
+  { img: "/images/Amrita.jpg", name: "Amrita",Personality:"Fitness Rehab & Injury Prevention" },
   { img: "/images/Ankita.jpg", name: "Ankita" ,Personality:"Postpartum & Women's Health  " },
-  { img: "/images/Aparna.jpg", name: "Aparna" ,Personality:"Balanced, spiritual-scientific blend " },
+  { img: "/images/Ananya.jpg", name: "Ananya",Personality:"Nutritionist (Diet & Nutrition) " },
+  { img: "/images/Arjun.jpg", name: "Arjun" ,Personality:"Body Transformation " },
+  { img: "/images/Aparna.jpg", name: "Aparna" ,Personality:"Postpartum And Women's Health " },
   { img: "/images/Avni.jpg", name: "Avni",Personality:"Strees & Mental Wellness " },
 ];
 
@@ -54,7 +54,7 @@ const ManualCarousel = () => {
               {/* Name below image */}
               <div className="mt-3 w-full text-center bg-white/80 py-2 rounded-lg shadow-sm font-semibold text-gray-800">
                 {coach.name}
-                <p>{coach.Personality}</p>
+                <p className="text-black/60 text-sm">{coach.Personality}</p>
               </div>
                
             </div>
