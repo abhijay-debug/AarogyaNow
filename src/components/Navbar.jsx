@@ -150,7 +150,7 @@ export default function Navbar() {
 
                   {/* CTA inside drawer */}
                   <li className="mt-4">
-                  <a href="#pricing" className="block">
+                  <a href="#pricing" className="block" onClick={() => setIsOpen(false)} >
           <button
             type="button"
             className="bg-white text-center w-48 sm:w-54 md:w-60 rounded-2xl h-14 relative text-black text-lg sm:text-xl font-semibold border-4 border-white group mx-auto"
