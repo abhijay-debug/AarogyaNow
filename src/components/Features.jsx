@@ -40,7 +40,7 @@ const Features = () => {
         <small className="block text-[0.8rem] tracking-[3px] uppercase text-black font-semibold mb-3">
           Features
         </small>
-        <h2 className="text-[2.5rem] md:text-[3rem] max-w-[800px] mx-auto font-semibold leading-[1.2]">
+        <h2 className="text-[1.8rem] md:text-[2.4rem] max-w-[800px] mx-auto font-semibold leading-[1.2]">
           Everything You Need in One Platform
         </h2>
       </div>
@@ -56,7 +56,7 @@ const Features = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once:true }}
-            className="col-span-1 md:col-span-2 mb-4 lg:w-1/4 lg:col-span-2 p-6 rounded-3xl bg-white/10 backdrop-blur-md shadow-xl hover:shadow-pink-400/40 transition-all duration-500 group"
+            className="col-span-1 md:col-span-2 text-center flex flex-col items-center   mb-4 lg:w-1/4 lg:col-span-2 p-6 rounded-3xl bg-white/10 backdrop-blur-md shadow-xl hover:shadow-pink-400/40 transition-all duration-500 group"
           >
             <div className="w-16 h-16 rounded-full bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 flex items-center justify-center text-2xl mb-5">
               {feature.icon}
@@ -75,7 +75,7 @@ const Features = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once:true }}
-            className="col-span-1 p-6 lg:w-1/3 z mb-4 rounded-2xl bg-white/10 backdrop-blur-md shadow-lg hover:shadow-pink-400/30 transition-all duration-500 group"
+            className="col-span-1 p-6 lg:w-1/3 z mb-4 text-center flex flex-col items-center  rounded-2xl bg-white/10 backdrop-blur-md shadow-lg hover:shadow-pink-400/30 transition-all duration-500 group"
           >
             <div className="w-14 h-14 rounded-full bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 flex items-center justify-center text-2xl mb-4">
               {feature.icon}

@@ -30,10 +30,8 @@ const ManualCarousel = () => {
 
   return (
     <div id="coaches" className="relative max-w-6xl mx-auto px-4 py-10">
-       <small className="block text-[0.8rem] text-center font-semibold tracking-[3px] uppercase bg-clip-text bg-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 mb-3">
-          Meet
-        </small>
-      <h1 className="text-[2.5rem] text-center md:text-[3rem] max-w-[800px] mx-auto font-semibold leading-[1.2]">
+       
+      <h1 className="text-[1.8rem] text-center md:text-[2.4rem] max-w-[800px] mx-auto font-semibold leading-[1.2]">
         Meet Your Expert Coaches
       </h1>
 
@@ -68,15 +66,23 @@ const ManualCarousel = () => {
       <div className="flex justify-center gap-6 mt-">
         <button
           onClick={() => scroll("left")}
-          className="bg-white/80 hover:bg-white shadow-md p-3 rounded-full"
+          className="  shadow-md p-3 rounded-full"
+          style={{
+                background: "linear-gradient(145deg,#7d37ff,#ffaea5)",
+                color: "#ffff",
+              }}
         >
-          <FaChevronLeft className="text-gray-700" />
+          <FaChevronLeft className="" />
         </button>
         <button
           onClick={() => scroll("right")}
           className="bg-white/80 hover:bg-white shadow-md p-3 rounded-full"
+          style={{
+                background: "linear-gradient(145deg,#7d37ff,#ffaea5)",
+                color: "#ffff",
+              }}
         >
-          <FaChevronRight className="text-gray-700" />
+          <FaChevronRight className="" />
         </button>
       </div>
     </div>

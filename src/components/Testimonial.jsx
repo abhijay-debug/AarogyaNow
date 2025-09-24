@@ -5,7 +5,7 @@ const Testimonial = () => {
      <section id="testimonials" className=" section px-[20px]">
         <div className="text-center mb-[60px]">
           <small className="block text-[0.8rem] tracking-[3px] uppercase text-black font-semibold mb-[12px]">Testimonials</small>
-          <h2 className="text-[2.5rem] max-w-[800px] mx-auto font-semibold leading-[1.3]">Life-Changing Results</h2>
+          <h2 className="md:text-[2.4rem] text-[1.8rem] max-w-[800px] mx-auto font-semibold leading-[1.3]">Life-Changing Results</h2>
         </div>
 
         <div className="grid gap-[40px] md:grid-cols-3 testimonials-grid">

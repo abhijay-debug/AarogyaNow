@@ -41,7 +41,7 @@ export default function HowItWorks() {
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="text-[2.5rem] font-semibold max-w-[800px] mx-auto leading-[1.3]"
+          className="md:text-[2.4rem] text-[1.8rem] font-semibold max-w-[800px] mx-auto leading-[1.3]"
         >
           How It Works
         </motion.h2>

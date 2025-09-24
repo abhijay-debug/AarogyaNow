@@ -30,7 +30,7 @@ const Pricing = () => {
         <small className="block text-[0.8rem] tracking-[3px] uppercase text-black font-semibold mb-[12px]">
           Plans
         </small>
-        <h2 className="text-[2.5rem] max-w-[800px] font-semibold mx-auto leading-[1.3]">
+        <h2 className="md:text-[2.4rem] text-[1.8rem] max-w-[800px] font-semibold mx-auto leading-[1.3]">
           Invest in Your Well-Being
         </h2>
       </div>

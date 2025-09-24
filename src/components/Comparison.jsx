@@ -16,7 +16,7 @@ const ComparisonChart = () => {
   return (
     <div id="comparison" className="max-w-6xl mx-auto p-6">
       {/* Header */}
-      <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-black">COMPARISON </h2>
+      <h2 className="text-[2rem] md:text-[2.4rem] font-bold mb-12 text-center text-black">COMPARISON </h2>
 
       <div className="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
         {/* Product Green */}

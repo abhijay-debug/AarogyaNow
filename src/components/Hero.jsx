@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hero() {
   return (
-    <section className="relative bg-white/70 pt-30 pb-10 flex items-center justify-center text-center px-5 text-black overflow-hidden">
+    <section className="relative bg-white/70 md:pt-30 pt-24 pb-10 flex items-center justify-center text-center px-5 text-black overflow-hidden">
       {/* Animated Gradient Blobs */}
       <motion.div
         className="absolute -top-32 -left-20 w-[350px] h-[350px] bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 rounded-full blur-3xl opacity-40 -z-10"
