@@ -2,16 +2,16 @@ import React, { useRef } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const coaches = [
-  { img: "/images/abhay.jpg", name: "Abhay",Personality:"Empathetic, nurturing, detail-oriented " },
-  { img: "/images/Aditya.jpg", name: "Aditya",Personality:"Disciplined, no-nonsense motivator" },
+  { img: "/images/abhay.jpg", name: "Abhay",Personality:"Nutrionist " },
+  { img: "/images/Aditya.jpg", name: "Aditya",Personality:"Yoga" },
   { img: "/images/Aisha.jpg", name: "Aisha",Personality:"Supportive friend, celebrates small wins" },
   { img: "/images/Ajay.jpg", name: "Ajay",Personality:"Analytical,Scientific,Clam" },
   { img: "/images/Amrita.jpg", name: "Amrita",Personality:"Gentle ,Steady,Reassuring" },
   { img: "/images/Ananya.jpg", name: "Ananya",Personality:"Compassionate, understanding " },
-  { img: "/images/Arjun.jpg", name: "Arjun" ,Personality:"Calm, mindful, wise " },
-  { img: "/images/Ankita.jpg", name: "Ankita" ,Personality:"Energetic, stylish, hype-person " },
+  { img: "/images/Arjun.jpg", name: "Arjun" ,Personality:" " },
+  { img: "/images/Ankita.jpg", name: "Ankita" ,Personality:"Postpartum & Women's Health  " },
   { img: "/images/Aparna.jpg", name: "Aparna" ,Personality:"Balanced, spiritual-scientific blend " },
-  { img: "/images/Avni.jpg", name: "Avni",Personality:"Patient, precise, safety-first " },
+  { img: "/images/Avni.jpg", name: "Avni",Personality:"Strees & Mental Wellness " },
 ];
 
 const ManualCarousel = () => {
