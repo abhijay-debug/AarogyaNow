@@ -1,11 +1,13 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 import { motion } from "framer-motion";
+import Navbar from "./Navbar";
 
 export default function Hero() {
   return (
-    <section className="relative bg-white/70 md:pt-30 pt-24 pb-10 flex items-center justify-center text-center px-5 text-black overflow-hidden">
+    <section className="relative bg-white/70   flex flex-col  items-center justify-center text-center px-5 text-black overflow-hidden">
       {/* Animated Gradient Blobs */}
+      <Navbar />
       <motion.div
         className="absolute -top-32 -left-20 w-[350px] h-[350px] bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 rounded-full blur-3xl opacity-40 -z-10"
         animate={{ x: [0, 50, 0], y: [0, 30, 0], scale: [1, 1.1, 1] }}
@@ -18,7 +20,7 @@ export default function Hero() {
       />
 
       {/* Content */}
-      <div className="w-full max-w-[900px] flex flex-col items-center justify-center text-center mx-auto relative z-10">
+      <div className="w-full max-w-[900px] flex flex-col py-4 items-center justify-center text-center mx-auto relative z-10">
         <h1 className="text-3xl sm:text-4xl text-center md:text-5xl lg:text-6xl font-extrabold leading-tight mb-6">
           One-Stop AI Health & Fitness{" "}
           <span className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 bg-clip-text text-transparent">

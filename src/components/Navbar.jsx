@@ -15,11 +15,11 @@ export default function Navbar() {
 
   return (
     <>
-      <header className="fixed flex justify-between items-center w-full p-4 md:p-6 bg-transparent z-50">
+      <header className=" flex justify-between items-center w-full p-4 md:p-6 bg-transparent z-50">
         {/* Left Section */}
         <div className="w-fit md:w-[60vw] shadow gap-6 md:gap-10 items-center bg-white flex px-3 md:px-6 py-2 rounded-2xl md:rounded-3xl md:ml-20">
           {/* Logo */}
-          <div className="text-[1.2rem] bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 bg-clip-text text-transparent md:text-[1.6rem] font-bold">AarogyaNow</div>
+          <div className="text-[1.2rem] bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 bg-clip-text text-transparent md:text-[1.6rem] font-bold">Healo Fit</div>
 
           {/* Navbar - hidden in mobile */}
           <nav className="hidden md:flex">

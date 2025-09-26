@@ -20,7 +20,7 @@ const App = () => {
    
 
   
-     <Navbar />
+     {/* <Navbar /> */}
    <Hero />
    <ManualMarquee />
    <Mission />

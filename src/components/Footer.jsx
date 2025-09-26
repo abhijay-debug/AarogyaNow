@@ -14,7 +14,7 @@ const Footer = () => {
       {/* Footer Content */}
       <div className="relative z-10 max-w-6xl mx-auto px-6 py-16 flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Logo / Brand */}
-          <div className="text-[1.2rem] bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 bg-clip-text text-transparent md:text-[1.6rem] font-bold">AarogyaNow</div>
+          <div className="text-[1.2rem] bg-gradient-to-r from-blue-400 via-purple-400 to-pink-300 bg-clip-text text-transparent md:text-[1.6rem] font-bold">Healo Fit</div>
         
 
         {/* Links */}
@@ -27,8 +27,8 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex gap-4 text-gray-300">
-          <a href="#" className="hover:text-white transition">Facebook</a>
-          <a href="#" className="hover:text-white transition">Instagram</a>
+          <a href="#" className="hover:text-white transition">WhatsApp</a>
+          <a href="https://www.instagram.com/healo_fit?utm_source=qr&igsh=Y3A0bGQxMjhkOHEx " className="hover:text-white transition">Instagram</a>
           <a href="#" className="hover:text-white transition">Twitter</a>
         </div>
       </div>
